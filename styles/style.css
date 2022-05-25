@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+span {
+  color: rgb(13, 174, 213);
+}
+
+h1 {
+  color: white;
+}
+
+.page-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1.65fr 10fr 10fr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 59, 56);
+  gap: 76;
+  /* padding-left: 300px; */
+}
+
+.nav-left {
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 4;
+  flex-basis: 30%;
+  max-width: 30%;
+  min-width: fit-content;
+}
+
+.nav-right {
+  text-align: end;
+  flex-grow: 2;
+  flex-basis: 60%;
+  max-width: 60%;
+  white-space: nowrap;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+.top-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.top-container p {
+  font-size: 35px;
+}
+
+.bottom-container {
+  background-color: white;
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  color: rgb(59, 58, 58);
+  font-size: 23px;
+}
+
+.item-1 {
+  /* transform: translateX(-20px); */
+  padding: 5px 20px 0 20px;
+  width: 235px;
+  height: 220px;
+}
+
+.item-1 img {
+  height: auto;
+  width: 100%;
+}
+
+.item-1 p {
+  padding-top: 8px;
+}
+
+.item-2 {
+  padding: 0 15px;
+  width: 235px;
+  height: 220px;
+}
+
+.item-2 img {
+  height: auto;
+  width: 100%;
+}
+
+.item-3 {
+  width: 190px;
+  height: 240px;
+}
+
+.item-3 img {
+  padding: 5px 0 6px 0;
+  height: auto;
+  width: 100%;
+}
+
+.item-4 {
+  padding: 5px 25px 0 25px;
+  width: 240px;
+  height: 220px;
+}
+
+.item-4 img {
+  height: auto;
+  width: 100%;
+}
+
+.item-4 p {
+  padding-top: 5px;
+}
