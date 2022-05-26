@@ -13,21 +13,18 @@ i {
   color: white;
 }
 
-.nav-right span {
+.nav-right span a {
   background-color: rgb(13, 174, 213);
-  padding: 8px 2px;
-  border-radius: 4px;
+  padding: 8px 8px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.logo-icon {
-  width: 1vw;
-  height: 0.5%;
+.logo-icon i {
   background-color: rgb(13, 174, 213);
+  padding: 8px 10px;
+  margin: 3px 0;
   border-radius: 50%;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
 }
 
 h1 {
@@ -56,6 +53,7 @@ h1 {
   flex-grow: 1;
   flex-shrink: 4;
   flex-basis: 30%;
+  white-space: nowrap;
   max-width: 30%;
   min-width: fit-content;
 }
