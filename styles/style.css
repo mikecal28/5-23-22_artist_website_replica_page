@@ -5,8 +5,29 @@
   box-sizing: border-box;
 }
 
-span {
+.nav-left span {
   color: rgb(13, 174, 213);
+}
+
+i {
+  color: white;
+}
+
+.nav-right span {
+  background-color: rgb(13, 174, 213);
+  padding: 8px 2px;
+  border-radius: 4px;
+}
+
+.logo-icon {
+  width: 1vw;
+  height: 0.5%;
+  background-color: rgb(13, 174, 213);
+  border-radius: 50%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
 }
 
 h1 {

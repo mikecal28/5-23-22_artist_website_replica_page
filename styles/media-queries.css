@@ -21,6 +21,13 @@
     text-align: center;
     min-width: fit-content;
     gap: 5px;
+    min-height: fit-content;
+  }
+
+  .nav-right span {
+    background-color: rgb(13, 174, 213);
+    padding: 8px 15px;
+    border-radius: 4px;
   }
 
   .nav-right a {
@@ -72,6 +79,12 @@
     padding-left: 0;
     text-align: center;
     min-width: fit-content;
+  }
+
+  .nav-right span {
+    background-color: rgb(13, 174, 213);
+    padding: 8px 15px;
+    border-radius: 4px;
   }
 
   .nav-right a {
